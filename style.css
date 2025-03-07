@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('banana.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #c4870b;
+    color: white;
+    width: 100%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+nav {
+    color: #c4870b;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #c4870b;
+    text-decoration: none;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+}

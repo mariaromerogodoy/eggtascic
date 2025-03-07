@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222;
+    color: #fff;
+    background-image: url('egg.jpeg');
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ff7733;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #ffffff;
+    color: #ff7733;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ff7733;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+    color: #ff7733;
+}
+
